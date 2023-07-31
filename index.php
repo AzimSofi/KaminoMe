@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>神の目</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h3><a href="#" style="color: #f1e2dc;">タイトル</a></h3>
+        <div class="title"><a href="#" style="color: #f1e2dc;">神の目Project</a></div>
     </header>   
     <div class='container1'>
         <div class='item1'>
@@ -17,7 +17,7 @@
         </div>
         <div class='item1 item11'>
                 <div style="margin-left: 30px; font-size: 25px;">
-                    作成
+                    イベント
                 </div>
         </div>
         <div class='container2'>
@@ -27,6 +27,8 @@
                 </a>
                 <div class='item12_caption'>
                     などなど<br>
+                    2023年7月31日(月)<br>
+                    どこか
                 </div>
             </div>
             <div class='item1'>
@@ -40,13 +42,32 @@
                 </div>
         </div>
         <div class='container3'>
-            <div class='test_item'></div>
-            <div class='test_item'></div>
-            <div class='test_item'></div>
-            <div class='test_item'></div>
-            <div class='test_item'></div>
-            <div class='test_item'></div>
+            <div class='test_item'><img src="画像\作成\BLUE.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\C97新刊　DIE A LONELY.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\canDie.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\dot.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\FLAME.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\Forward slash.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\Good day Good ○○e.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\HELLO HELLO HELLO ／焦茶初個展ビジュアル.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\inner color angel.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\MAY.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\near your gear.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\Pruple hair angel.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\Re new memory.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\START LINE.jpg" alt="Image 1"></div>
+            <div class='test_item'><img src="画像\作成\エウリュアレ.jpg" alt="Image 1"></div>
         </div>
     </div>
+    <div class="container_footerの前">
+        <div class="footerの前">
+            神の目Project
+        </div>
+    </div>
+    <footer>
+        <div class="footer_text">
+            Copyright ©2023 神の目Project. All Rights Reserved.
+        </div>
+    </footer>
 </body>
 </html>
