@@ -9,6 +9,10 @@ header {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .title {
     margin-left: 50px;
     font-size: 140%;
