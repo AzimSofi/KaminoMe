@@ -13,35 +13,36 @@
     </header>   
     <div class='container1'>
         <div class='item1'>
-            <iframe width="840px" height="472.5px" src="https://www.youtube.com/embed/HkIQDx3GVCs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1180px" height="663.75px" src="https://www.youtube.com/embed/HkIQDx3GVCs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class='item1 item11'>
-                <div style="margin-left: 30px; font-size: 25px;">
+        <div class='item1 item11' style="margin-bottom: 55px"> <!-- label -->
+                <div style="margin-left: 25px; font-size: 25px;">
                     イベント
                 </div>
         </div>
-        <div class='container2'>
-            <div class='item1 item12'>
-                <a href="#">
-                    <img class="pop-out-image" src="画像\COMITIA126 sample.jpg" alt='COMITIA126 sample.jpg' title='絵' width='420px'>
-                </a>
-                <div class='item12_caption'>
-                    などなど<br>
-                    2023年7月31日(月)<br>
-                    どこか
-                </div>
+        <div class="container2"> <!-- row for 2 pictures -->
+            <div class='container21'> <!-- column for picture #1-->
+                    <div class="item21"> <!-- item #1 in column -->
+                        <a href="#">
+                            <img class="pop-out-image" src="画像\COMITIA126 sample.jpg" alt='COMITIA126 sample.jpg' title='絵' width='420px'>
+                        </a>
+                    </div>
+                    <div class='item12_caption'> <!-- item #2 in column -->
+                        などなど<br>
+                        2023年7月31日(月)<br>
+                        どこか
+                    </div>
             </div>
-            <div class='item1'>
-                <!--<img src="画像\COMITIA126 sample.jpg" alt='COMITIA126 sample.jpg' title='絵' width='300px'>
-                -->
+            <div class='container21'> <!-- column for picture #2-->
+                <!-- Insert picture #2 -->
             </div>
         </div>
-        <div class='item1 item11'>
-                <div style="margin-left: 30px; font-size: 25px;">
+        <div class='item1 item11'> <!-- label -->
+                <div style="margin-left: 25px; font-size: 25px;">
                     作成
                 </div>
         </div>
-        <div class='container3'>
+        <div class='container3'> <!-- row-wrap -->
             <div class='test_item pop-out-image'><a href="#"><img src="画像\作成\BLUE.jpg" alt="Image 1"></a></div>
             <div class='test_item pop-out-image'><a href="#"><img src="画像\作成\C97新刊　DIE A LONELY.jpg" alt="Image 2"></a></div>
             <div class='test_item pop-out-image'><a href="#"><img src="画像\作成\canDie.jpg" alt="Image 3"></a></div>
@@ -56,7 +57,7 @@
             <div class='test_item pop-out-image'><a href="#"><img src="画像\作成\Pruple hair angel.jpg" alt="Image 12"></a></div>
             <div class='test_item pop-out-image'><a href="#"><img src="画像\作成\Re new memory.jpg" alt="Image 13"></a></div>
             <div class='test_item pop-out-image'><a href="#"><img src="画像\作成\START LINE.jpg" alt="Image 14"></a></div>
-            <div class='test_item pop-out-image'><a href="#"><img src="画像\作成\エウリュアレ.jpg" alt="Image 15"></a></div>
+            <div class='test_item pop-out-image' style="margin-bottom: 247px"><a href="#"><img src="画像\作成\エウリュアレ.jpg" alt="Image 15"></a></div>
         </div>
     </div>
     <div class="container_footerの前">
@@ -69,5 +70,7 @@
             Copyright ©2023 神の目Project. All Rights Reserved.
         </div>
     </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">上</button>
+    <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
