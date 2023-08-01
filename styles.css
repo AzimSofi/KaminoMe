@@ -1,8 +1,8 @@
 header {
-    background-color: #f73a2c;
+    background-color: rgba(221, 51, 51, 1);
     font-size: large;
     color: #ffffff;
-    height: 60px;
+    height: 80px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,8 +14,8 @@ a {
 }
 
 .title {
-    margin-left: 50px;
-    font-size: 140%;
+    margin-left: 80px;
+    font-size: 180%;
     color: #ffff;
 }
 
@@ -32,37 +32,45 @@ body {
 }
 
 .item1 {
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .item11 {
     background-color: black;
     color: white;
-    width: 840px;
-    height: 65px;
+    width: 1180px;
+    height: 61px;
     display: flex;
     align-items: center;
-    margin-top: 55px;
+    margin-top: 96px;
     margin-bottom: 5px;
 }
 
-.item12 {
+.container2 {
+    width: 1180px;
+}
+
+.container21{
     display: flex;
     flex-direction: column;
+    width: 565px;
+}
+
+.item21 {
+
+}
+
+.item21 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .item12_caption {
     margin-top: 10px;
-    margin-bottom: 80px;
-    color: #555555;
-    font-size: 90%;
-}
-
-.container2{
-    display: flex;
-    flex-direction: row;
-    width: 840px;
-    
+    margin-bottom: 20px;
+    color: #4e4e4e;
+    font-size: 120%;
 }
 
 .pop-out-image {
@@ -76,15 +84,15 @@ body {
 .container3 {
     display: flex;
     flex-wrap: wrap;
-    width: 840px;
+    width: 1180px;
 }
 
 .test_item {
-    width: 270px;
-    height: 380px;
-    margin: 5px;
+    width: 379.33px;
+    height: 537px;
+    margin: 7px;
     margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .test_item img {
@@ -98,17 +106,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(245, 240, 255);
 }
 
 .footerの前 {
-    margin-top: 100px;
-    margin-bottom: 30px;
-    font-size: 150%;
+    margin-top: 46px;
+    margin-bottom: 46px;
+    font-size: 175%;
 }
 
 footer {
     background-color: #000000;
-    height: 50px;
+    height: 60px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -118,5 +127,33 @@ footer {
 
 .footer_text {
     color: white;
-    font-size: 75%;
+    font-size: 80%;
+}
+
+#myBtn {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1000;
+    border: none;
+    outline: none;
+    background-color: #ee3c00;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    height: 60px;
+    width: 60px;
+
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+#myBtn.show {
+    opacity: 1;
+}
+
+#myBtn:hover {
+    background-color: #999999;
 }
