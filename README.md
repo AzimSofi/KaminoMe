@@ -19,3 +19,12 @@ Make sure you have [XAMPP](https://www.apachefriends.org/index.html) installed.
 5. Note: Ensure that the project files are directly within the kaminome-main folder and not inside another subfolder. The path should look like this: C:\xampp\htdocs\kaminome-main\.
 
 6. Access the Project in Your Browser: Open a new browser window or tab and enter http://localhost/kaminome-main/index.php in the address bar. Press Enter to access the kaminome project locally.
+
+
+<footer>
+  <i>
+      If the code is not updating after changing the source code try refreshing the web browser's cache:
+      <li>Windows/Linux: Press Ctrl + F5 or Ctrl + Shift + R.</li>
+      <li>Mac: Press Command + Shift + R.</li>
+  </i>
+</footer>
